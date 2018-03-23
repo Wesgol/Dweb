@@ -1,0 +1,406 @@
+
+
+/******************************************/
+/*Basic - Start                           */
+/******************************************/
+
+body {
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+}
+
+.bg {
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../pics/bg.jpg);
+}
+
+
+.selfcont {
+    box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/******************************************/
+/*Basic - End                             */
+/******************************************/
+
+
+/******************************************/
+/*Header - Start                          */
+/******************************************/
+
+.jumbotronbg {
+   background-image: url(../pics/fusz_header.png);
+   margin-bottom: 0px;
+   background-size: cover;
+}
+
+.jumbohead {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 4em;
+}
+
+.jumbohead2 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 8px;
+    font-size: 1.2em;
+}
+
+/******************************************/
+/*Header - End                            */
+/******************************************/
+
+
+/******************************************/
+/*Navbar - Start                          */
+/******************************************/
+
+.navbar-light .navbar-nav .nav-link
+{
+    /*color: #87ad14;*/
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.navbar-custom {
+    /*background-color: #f9ffe6 !important;*/
+    background-color: #87ad14 !important;
+    text-transform: uppercase;
+    border-top: 2px solid #0f7531;
+    border-bottom: 2px solid #0f7531;
+}
+
+a {
+  position: relative;
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/******************************************/
+/*Navbar - End                            */
+/******************************************/
+
+
+/******************************************/
+/*Modal - Start                           */
+/******************************************/
+
+
+.modalhead {
+    background-color: #87ad14;
+}
+
+.modal-title {
+    margin-left: 150px;
+}
+
+.modal-title i {
+    padding-right: 10px;
+}
+.modal-footer .footertext {
+    margin-right: 100px;
+}
+
+.modal-footer button {
+    margin-top: 10px;
+}
+
+.input-group span {
+    background-color: #cecccc;
+    padding: 10px;
+}
+
+.buttonnew1 .buttonnew2 {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/******************************************/
+/*Modal - End                             */
+/******************************************/
+
+
+/******************************************/
+/*Main - Content - Start                  */
+/******************************************/
+
+.containerbg {
+    background-color: #FFFFE3;
+}
+
+#h1, #h2, #h3, #h4, #h5 {
+    padding-top: 92px;
+    text-transform: uppercase;
+}
+
+#h1, #h2, #h3, #h4, #h5 img {
+    margin-bottom: 7px;
+    padding-right: 5px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #0f7531;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.psize1, .psize2, .psize3 {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-size: 1.2em;
+}
+.psize4{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-size: 1.2em;
+}
+
+/******************************************/
+/*Main - Content - End                    */
+/******************************************/
+
+
+/******************************************/
+/*Section 1 - Start                        */
+/******************************************/
+
+.s1p {
+    padding-bottom: 20px;
+}
+
+/******************************************/
+/*Section 1 - End                         */
+/******************************************/
+
+
+/******************************************/
+/*Section 2 - Start                        */
+/******************************************/
+
+.s2p {
+    padding-bottom: 20px;
+}
+
+.h4size {
+    margin-bottom: 30px;
+}
+
+/******************************************/
+/*Section 2 - End                         */
+/******************************************/
+
+
+/******************************************/
+/*Section 3 - Start                        */
+/******************************************/
+
+.containerfix {
+    height: 900px;
+}
+
+.pics {
+    margin-top: 120px;
+}
+
+.carousel img {
+    margin: auto;
+}
+
+/******************************************/
+/*Section 3 - End                         */
+/******************************************/
+
+
+/******************************************/
+/*Section 4 - Start                        */
+/******************************************/
+
+.imgsize {
+    width: 70%;
+    height: 70%;
+}
+
+.linkcolor {
+    color: #0f7531;
+}
+.linkcolor:hover {
+    color: #0f7531;
+}
+
+/******************************************/
+/*Section 4 - End                         */
+/******************************************/
+
+
+/******************************************/
+/*Section 5 - Start                        */
+/******************************************/
+
+
+.input-field .form-control {
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  border-radius: 0; 
+}
+
+.btn-send {
+  line-height: 48px;
+  background: #87ad14;
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.form-group .input-field {
+  margin-top: 10px; 
+}
+
+.input-field textarea.form-control {
+  height: 160px; 
+}
+
+.form-message{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-success {
+    color: green;
+}
+
+.form-error{
+    color: red;
+}
+
+.input-error {
+    box-shadow: 0 0 5px red;
+}
+
+
+
+
+
+/******************************************/
+/*Section 5 - End                         */
+/******************************************/
+
+/******************************************/
+/*Parallax - Start                        */
+/******************************************/
+
+.parallax {
+    background-image: url(../pics/pecs.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/******************************************/
+/*Parallax - End                         */
+/******************************************/
+
+
+/******************************************/
+/*Footer - Start                          */
+/******************************************/
+
+footer {
+    text-align: center;
+    background-color: #87ad14;
+    /*background-color: #f9ffe6;*/
+    border-top: 2px solid #0f7531;
+    padding-top: 25px;
+    /*color: #87ad14;*/
+    color: #ffffff;
+}
+
+/******************************************/
+/*Footer - End                            */
+/******************************************/
+
+
+/******************************************/
+/*Back To Top Button - Start              */
+/******************************************/
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 25px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #0f7531;
+  color: #fff;
+}
+
+/******************************************/
+/*Back To Top Button -  End              */
+/******************************************/

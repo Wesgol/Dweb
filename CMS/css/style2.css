@@ -1,0 +1,49 @@
+body,html {
+    height: 100%;
+}
+
+
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.unistyle {
+    padding-top: 50px;
+}
+
+.navbar-custom {
+    background-color: #191919 !important;
+}
+
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark.navbar-custom ul.navbar-nav li.nav-item a.nav-link {
+    font-size: 18px;
+    color: #ccccc0;
+    font-weight: 700;
+}
+
+li a:hover:not(.active) {
+    background-color: #757575;
+}
